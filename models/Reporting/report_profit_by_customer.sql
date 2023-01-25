@@ -4,4 +4,4 @@ segment,
 country,
 state,
 sum(orderprofit) as customerprofit
-from {{ref('stg_orders')}}
+from {{ ref('stg_orders') }}

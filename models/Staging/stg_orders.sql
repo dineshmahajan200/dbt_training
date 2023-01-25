@@ -1,4 +1,4 @@
-select {{ dbt_utils.surrogate_key(['o.orderid', 'c.customerid','p.productid']) }} as sk_orders,
+select
 o.orderid,
 o.orderdate,
 o.shipdate,

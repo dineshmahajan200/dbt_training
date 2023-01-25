@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: calculates orderprofit per orders
+    columns:
+      - name: orderid
+        description: primary key for stg_orders

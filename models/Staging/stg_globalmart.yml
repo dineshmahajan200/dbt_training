@@ -6,5 +6,3 @@ models:
     columns:
       - name: orderid
         description: primary key for stg_orders
-      - name: shipmode
-        description: '{{doc("shipmode")}}'

@@ -1,7 +1,3 @@
- {{
-     config(
-         materialized='table'
-     )
- }}
 
-select * from {{ ref('raw_orders') }}
+
+select * from raw.globalmart.orders

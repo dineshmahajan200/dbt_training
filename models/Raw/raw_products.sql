@@ -4,4 +4,4 @@
      )
  }}
 
-select * from {{ ref('raw_products') }}
+select * from raw.globalmart.products

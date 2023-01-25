@@ -4,4 +4,4 @@
      )
  }}
 
-select * from {{ ref('raw_customers') }}
+select * from raw.globalmart.customers

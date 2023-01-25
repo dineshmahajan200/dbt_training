@@ -13,7 +13,8 @@ c.state,
 p.productid,
 p.category,
 p.productname,
-p.subcategory
+p.subcategory,
+{{markedprice('ordersellingprice', 'ordercostprice')}} as markedprice
 from {{ ref('raw_orders') }} as o
 left join {{ ref('raw_customers') }} as c 
 on o.customerid=c.customerid

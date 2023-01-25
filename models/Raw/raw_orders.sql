@@ -4,4 +4,4 @@
      )
  }}
 
-select * from {{ source('globalmart', 'orders') }}
+select * from {{ ref('raw_orders') }}

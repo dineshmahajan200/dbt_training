@@ -22,5 +22,5 @@ left join {{ ref('raw_customers') }} as c
 on o.customerid=c.customerid
 left join {{ ref('raw_products') }} as p
 on o.productid=p.productid
-left join {{ ref('delivery_team') }} as d
+left join {{ ref('raw_orders') }} as d
 on o.shipmode=d.shipmode
